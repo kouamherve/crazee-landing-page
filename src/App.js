@@ -1,9 +1,10 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className=" bg-hero-pattern h-screen">
-      <h1>Hello</h1>
+    <div className=" bg-hero-pattern h-screen text-white px-5 pb-20">
+      <Header />
     </div>
   );
 }
