@@ -1,52 +1,21 @@
 import React from "react";
+import { logos } from "../utils/enums";
 
 export default function TrustedBy() {
-  const logos = [
-    {
-      id: 0,
-      name: "Dell",
-      imageSrc: "./logoDell.png",
-    },
-    {
-      id: 1,
-      name: "Zendesk",
-      imageSrc: "./logoZendesk.png",
-    },
-    {
-      id: 2,
-      name: "Rakuten",
-      imageSrc: "./logoRakuten.png",
-    },
-    {
-      id: 3,
-      name: "Pacific Funds",
-      imageSrc: "./logoPacificFunds.png",
-    },
-    {
-      id: 4,
-      name: "NCR",
-      imageSrc: "./logoNcr.png",
-    },
-    {
-      id: 5,
-      name: "Lattice",
-      imageSrc: "./logoLattice.png",
-    },
-    {
-      id: 6,
-      name: "TED",
-      imageSrc: "./logoTed.png",
-    },
-  ];
   return (
-    <div className=" border border-blue-500 py-[60px] px-5 flex flex-col items-center gap-10">
-      <p className=" text-white border border-white">
+    <div className=" py-[60px] px-5 flex flex-col items-center gap-10">
+      <p className=" text-white/75 text-xl">
         Trusted by teams at over 1,000 of the world’s leading organizations
       </p>
-      <div className=" w-full flex border border-yellow-500 ">
+      <div className=" min-w-full flex justify-center gap-12">
         {logos.map((logo) => {
           return (
-            <img src={logo.imageSrc} alt={logo.name} className=" w-10 h-6" />
+            <img
+              key={logo.id}
+              src={logo.imageSrc}
+              alt={logo.name}
+              className=" w-fit h-fit object-cover object-center"
+            />
           );
         })}
       </div>
