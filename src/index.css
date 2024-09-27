@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .complete-shadow {
+    @apply bg-gradient-to-b from-white/5 to-white/0 shadow-custom-combined rounded-[20px];
+  }
+}
