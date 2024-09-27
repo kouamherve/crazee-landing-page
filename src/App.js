@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import PowerfulAnalystic from "./components/PowerfulAnalystic";
 import Services from "./components/Services";
 import TrustedBy from "./components/TrustedBy";
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <TrustedBy />
       <Services />
+      <PowerfulAnalystic />
     </div>
   );
 }
