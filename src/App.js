@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import PowerfulAnalystic from "./components/PowerfulAnalystic";
 import Services from "./components/Services";
@@ -11,6 +12,7 @@ function App() {
       <TrustedBy />
       <Services />
       <PowerfulAnalystic />
+      <Footer />
     </div>
   );
 }
