@@ -35,3 +35,35 @@ export const logos = [
     imageSrc: "./logoTed.png",
   },
 ];
+
+export const careersContents = [
+  {
+    id: 0,
+    num: "Careers@vaultflow.com",
+  },
+];
+
+export const contactContents = [
+  {
+    id: 0,
+    num: "Work inquires: work@vaultflow.com",
+  },
+  {
+    id: 1,
+    num: "PR and speaking: press@vaultflow.com",
+  },
+  {
+    id: 2,
+    num: "New business: newbusiness@vaultflow.com",
+  },
+];
+
+export const addressContents = [
+  { id: 0, num: "398 11th Street, Floor 2 San Francisco, CA 94103" },
+];
+
+export const socialContents = [
+  { id: 0, num: "Twitter" },
+  { id: 1, num: "Instagram" },
+  { id: 2, num: "Tik Tok" },
+];
