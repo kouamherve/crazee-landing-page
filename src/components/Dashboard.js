@@ -8,7 +8,7 @@ export default function Dashboard() {
         <div className=" text-center flex flex-col gap-6 items-center">
           <Button
             label="We just raised $20M in Series B. Learn more"
-            className="bg-transparent border-[1.24px] border-white/30 text-[#F2F4F8]"
+            className="bg-transparent border-[1.24px] border-white/30 text-[#F2F4F8] hover:bg-transparent/30 hover:border-my_white"
           />
           <div className="text-[80px] leading-[5rem] font-medium tracking-tight">
             <p className=" bg-gradient-to-r from-my_white/80 to-my_white/60 inline-block text-transparent bg-clip-text">
@@ -25,11 +25,11 @@ export default function Dashboard() {
           <div className=" pt-4 flex gap-4">
             <Button
               label="Download the app"
-              className="bg-my_white border border-my_white text-my_dark"
+              className="bg-my_white border border-my_white text-my_dark hover:text-my_white hover:bg-transparent hover:border-my_white"
             />
             <Button
               label="Talk to an expert"
-              className="bg-transparent border border-my_white text-my_white"
+              className="bg-transparent border border-my_white text-my_white hover:bg-transparent/40"
             />
           </div>
         </div>

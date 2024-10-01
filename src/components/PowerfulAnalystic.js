@@ -18,7 +18,7 @@ export default function PowerfulAnalystic() {
           </p>
           <Button
             label="Download the app"
-            className="px-6 py-3 border bg-transparent border-my_white text-[#F2F4F8] rounded-[60px] text-base"
+            className="px-6 py-3 border bg-transparent border-my_white text-[#F2F4F8] rounded-[60px] text-base hover:bg-my_white hover:text-my_dark hover:border-transparent "
           />
         </div>
       </div>

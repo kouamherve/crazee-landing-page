@@ -26,8 +26,10 @@ export default function AnalysticDashboardCard({
       >
         {content}
       </p>
-      <div className=" pt-4 leading-[24px] text-white font-medium underline">
-        <Link to="#">{link}</Link>
+      <div className=" pt-4 leading-[24px] text-white font-medium underline underline-offset-2">
+        <Link to="#" className=" hover:text-indigo-100">
+          {link}
+        </Link>
       </div>
     </div>
   );

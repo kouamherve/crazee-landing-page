@@ -10,7 +10,7 @@ export default function Navbar() {
         <Menu />
         <Button
           label="Download the app"
-          className="bg-my_white border border-my_white text-my_dark"
+          className="bg-my_white border border-my_white text-my_dark hover:bg-transparent hover:border-my_white hover:text-my_white "
         />
       </div>
     </div>
